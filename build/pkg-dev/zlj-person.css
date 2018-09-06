@@ -1,0 +1,36 @@
+.zlj-person {
+  width: 690px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.zlj-person-form {
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+.zlj-person-form .ant-form-item-label {
+  width: 120px;
+}
+.zlj-person-role {
+  background: #fffaf3;
+  border: 1px solid #fbd8a5;
+  padding: 10px ;
+  width: 610px;
+  flex: 0 0 120px;
+  margin-bottom: 18px;
+}
+.zlj-person-role-role {
+  flex-direction: row;
+}
+.zlj-person-function {
+  flex-direction: row;
+  align-items: center;
+  flex: 0 0 40px;
+  overflow: hidden;
+}
+.zlj-person-function .ant-btn {
+  height: 38px;
+  width: 100px;
+  margin-right: 10px;
+}
+
